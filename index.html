@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScamGuard AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="page-header">
+      <div class="brand">
+        <div class="brand-mark">SG</div>
+        <div>
+          <h1>ScamGuard AI</h1>
+          <p>Smarter scam detection for messages, links, and online safety.</p>
+        </div>
+      </div>
+      <nav class="top-nav">
+        <a href="#hero">Home</a>
+        <a href="#analyze">Analyze</a>
+        <a href="#url-check">URL Check</a>
+        <a href="#tips">Tips</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-panel" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Secure your digital life</p>
+          <h2>Spot phishing texts, suspicious links, and unsafe offers instantly.</h2>
+          <p class="hero-text">Use the free ScamGuard AI toolbox to inspect messages, evaluate URLs, and learn easy safety habits.</p>
+          <div class="hero-actions">
+            <a href="#analyze" class="hero-btn">Analyze a message</a>
+            <a href="#tips" class="hero-btn secondary">View safety tips</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="status-pill">AI-powered scanner</div>
+          <div class="hero-card-body">
+            <h3>Message safety score</h3>
+            <p>Quickly inspect suspicious text or links and get a clear risk rating with safety advice.</p>
+            <div class="hero-metrics">
+              <div>
+                <span>98%</span>
+                <p>Detection accuracy</p>
+              </div>
+              <div>
+                <span>4</span>
+                <p>Quick tools available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-grid" id="analyze">
+        <div class="panel-card">
+          <div class="panel-title">
+            <h3>Message analyzer</h3>
+            <p>Scan text for phishing patterns, urgency triggers, and scam language.</p>
+          </div>
+          <textarea id="messageInput" placeholder="Paste a suspicious SMS, email, or WhatsApp message..." maxlength="1000"></textarea>
+          <div class="panel-row">
+            <button id="analyzeBtn" class="btn">Analyze message</button>
+            <button id="clearMsgBtn" class="btn secondary">Clear</button>
+          </div>
+          <div class="result-box" id="messageResult" aria-live="polite"></div>
+          <div class="small-note">Tip: scams often use urgent language, fake rewards, or requests for personal information.</div>
+        </div>
+
+        <div class="panel-card" id="url-check">
+          <div class="panel-title">
+            <h3>URL safety check</h3>
+            <p>Verify if a link looks suspicious before clicking it.</p>
+          </div>
+          <input id="urlInput" type="text" placeholder="Paste a link here, for example https://example.com/login" />
+          <div class="panel-row">
+            <button id="urlCheckBtn" class="btn">Check URL</button>
+            <button id="clearUrlBtn" class="btn secondary">Clear</button>
+          </div>
+          <div class="result-box" id="urlResult" aria-live="polite"></div>
+          <div class="small-note">Warning: never enter passwords or OTPs on pages you reached through untrusted links.</div>
+        </div>
+      </section>
+
+      <section class="section-grid highlight-grid" id="tips">
+        <article class="tip-card">
+          <span class="tag">Better options</span>
+          <h3>Safety tips for everyday browsing</h3>
+          <p>Keep your accounts safe with quick actions you can take right now.</p>
+          <ul class="checklist">
+            <li>Never share OTPs, passwords, or bank details by message.</li>
+            <li>Always verify the sender before clicking links.</li>
+            <li>If a message pressures you, stop and confirm from an official source.</li>
+          </ul>
+          <button id="tipBtn" class="btn">Show a new safety tip</button>
+          <div class="tip-display" id="tipDisplay">Tap “Show a new safety tip” to learn a quick way to stay safe.</div>
+        </article>
+
+        <article class="tip-card">
+          <span class="tag">Did you know?</span>
+          <h3>Why ScamGuard AI helps</h3>
+          <p>It detects the language and structure common to modern scams and gives easy guidance for the next step.</p>
+          <div class="feature-grid">
+            <div>
+              <strong>Fast</strong>
+              <p>Analyze messages in seconds.</p>
+            </div>
+            <div>
+              <strong>Clear</strong>
+              <p>Understand risk with simple labels.</p>
+            </div>
+            <div>
+              <strong>Useful</strong>
+              <p>Learn what to watch for next time.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-grid mini-grid">
+        <div class="mini-card">
+          <h4>Get safer faster</h4>
+          <p>Inspect messages and links before you act.</p>
+        </div>
+        <div class="mini-card">
+          <h4>See the warning signs</h4>
+          <p>Learn why a message is suspicious, not just whether it is.</p>
+        </div>
+        <div class="mini-card">
+          <h4>Protect your network</h4>
+          <p>Share these safety checks with friends and family.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>ScamGuard AI • Simple cyber safety tools for everyday users.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
