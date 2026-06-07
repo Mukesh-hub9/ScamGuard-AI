@@ -2,7 +2,7 @@
  
  My LinkedIn: https://www.linkedin.com/in/mukesh-sai-kumar-cybersecurity/
  
- Live Demo: 
+ Live Demo: https://mukesh-hub9.github.io/ScamGuard-AI/
 
  ScamGuard AI is an AI-inspired cybersecurity awareness platform designed to help users identify phishing attempts, suspicious messages, and unsafe URLs through an interactive and user-friendly web interface.
 
