@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ScamGuard AI — Cyber Awareness & Scam Detection Toolbox
 
 ScamGuard AI is a clean, browser-only security helper that helps everyday users inspect suspicious messages and links. The site provides a message analyzer, URL safety checker, and quick safety tips in a polished UI.
@@ -55,3 +56,7 @@ ScamGuard AI is a clean, browser-only security helper that helps everyday users 
 
 * This project uses client-side detection logic only. It is intended to help users make safer decisions, not as a replacement for professional security software.
 * All analysis happens locally in the browser. No data is submitted to remote servers.
+=======
+# ScamGuard-AI
+AI-Powered Cyber Awareness &amp; Scam Detection Assistant
+>>>>>>> 8c0a5d7e32ca74e328638440bf178eca1d5cf9c4
