@@ -1,62 +1,115 @@
-<<<<<<< HEAD
-# ScamGuard AI — Cyber Awareness & Scam Detection Toolbox
+ ScamGuard AI — Cyber Awareness & Scam Detection Toolbox
+ 
+ My LinkedIn: https://www.linkedin.com/in/mukesh-sai-kumar-cybersecurity/
+ 
+ Live Demo: 
 
-ScamGuard AI is a clean, browser-only security helper that helps everyday users inspect suspicious messages and links. The site provides a message analyzer, URL safety checker, and quick safety tips in a polished UI.
+ ScamGuard AI is an AI-inspired cybersecurity awareness platform designed to help users identify phishing attempts, suspicious messages, and unsafe URLs through an interactive and user-friendly web interface.
 
-## 🎯 What this project offers
 
-* **Message Analyzer** — Paste SMS, email, WhatsApp, or chat text to detect phishing language, urgency cues, and scam patterns.
-* **URL Safety Checker** — Paste a link to discover suspicious formatting, hidden domains, and risky URL characteristics.
-* **Safety Tips Drawer** — Get practical cyber safety guidance for everyday digital habits.
+🚀 Project Overview
 
----
+With the rapid growth of digital communication, cyber scams such as phishing, fake reward messages, malicious links, OTP fraud, and impersonation attacks have become increasingly common. Many users—especially students, beginners, and rural internet users—lack awareness about identifying these threats.
 
-## 🛠️ Current Features
+ScamGuard AI aims to bridge this gap by providing:
 
-1. **Message Analysis**
-   * Detects reward promises, urgent demands, verification requests, OTP prompts, and suspicious link mentions.
-   * Produces a risk score and easy-to-read advice based on identified warning signs.
+* Suspicious message analysis
+* URL safety inspection
+* Cybersecurity awareness tips
+* Simple scam risk evaluation
 
-2. **Link Inspection**
-   * Flags long or hidden URLs, IP-based hosts, suspicious keywords, unusual punctuation, and risky domain extensions.
-   * Displays a simple safety recommendation with a risk label.
+The project demonstrates how AI concepts and cybersecurity awareness can be combined to create a meaningful social impact solution aligned with sustainability goals.
 
-3. **Tip Generator**
-   * Presents a new safety tip on demand.
-   * Helps users learn safer behavior for passwords, OTPs, links, and app downloads.
 
----
 
-## 💻 Built With
+🎯 Key Features
 
-* **HTML5** and **CSS3** for the full front-end layout and styling.
-* **JavaScript** for client-side scanning logic and interactions.
-* No external build tools or server-side components required.
+🔍 Message Scam Analyzer
 
----
+Analyze suspicious SMS, emails, or chat messages to detect:
 
-## 🚀 Run it Locally
+* Phishing patterns
+* Urgent scam language
+* Fake rewards
+* OTP or password requests
+* Financial fraud indicators
 
-1. Open the `ScamGuard AI` folder.
-2. Double-click `index.html`.
-3. The app opens directly in your browser—no installation needed.
+The system generates:
 
----
+* Risk level (Low / Medium / High)
+* Scam indicators
+* Safety recommendations
 
-## 🧭 How to Use
 
-1. In the **Message Analyzer**, paste any suspicious SMS, email, or chat text and click **Analyze message**.
-2. In the **URL Safety Checker**, paste a link and click **Check URL** to see if it contains suspicious structure or domain markers.
-3. Press **Show a new safety tip** to learn a fresh cyber safety recommendation.
-4. Use the site’s results to decide whether a link or message feels unsafe before clicking or replying.
+🌐 URL Safety Checker
 
----
+Inspect suspicious links before opening them.
 
-## 🛡️ Notes
+Detects:
 
-* This project uses client-side detection logic only. It is intended to help users make safer decisions, not as a replacement for professional security software.
-* All analysis happens locally in the browser. No data is submitted to remote servers.
-=======
-# ScamGuard-AI
-AI-Powered Cyber Awareness &amp; Scam Detection Assistant
->>>>>>> 8c0a5d7e32ca74e328638440bf178eca1d5cf9c4
+* Hidden or deceptive URLs
+* Fake login links
+* Unsafe domains
+* Suspicious URL structures
+* Risky keywords and patterns
+
+
+💡 Cyber Safety Awareness Tips
+
+Provides dynamic cybersecurity tips such as:
+
+* Password protection
+* OTP safety
+* Safe browsing habits
+* Scam prevention techniques
+* Digital awareness practices
+
+
+ 🧠 AI Concepts Used
+
+This project applies AI-inspired logic and cybersecurity analysis techniques including:
+
+* Pattern detection
+* Text analysis
+* Risk scoring
+* Rule-based threat identification
+* Awareness-driven decision support
+
+
+ 🌍 Sustainable Development Goals (SDGs)
+
+This project aligns with:
+
+SDG 4 — Quality Education
+
+Promotes cybersecurity education and digital literacy.
+
+SDG 16 — Peace, Justice & Strong Institutions
+
+Supports safer digital environments and responsible technology use.
+
+
+⚙️ How It Works
+
+1. User enters a suspicious message or URL
+2. The application scans for scam indicators
+3. Risk scoring logic evaluates the threat level
+4. Results and cybersecurity recommendations are displayed instantly
+
+
+
+📈 Expected Impact
+
+ScamGuard AI helps:
+
+* Improve cyber awareness
+* Reduce phishing risks
+* Encourage safe online behavior
+* Promote digital literacy among users
+
+Conclusion:
+
+ScamGuard AI is a cybersecurity awareness and scam detection platform designed to help users identify phishing attempts, suspicious messages, and unsafe URLs through a simple and interactive web application. The project demonstrates how AI-inspired analysis and cybersecurity concepts can be combined to improve digital safety awareness among everyday internet users.
+
+By providing message analysis, URL safety checks, and practical cyber awareness tips, the system encourages safer online behavior and helps users make informed decisions before interacting with unknown links or messages.
+
